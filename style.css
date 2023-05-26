@@ -1,0 +1,115 @@
+/*global*/
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+:root {
+    --primeira-cor: #1A120B;
+    --segunda-cor: #3C2A21;
+    --tercerira-cor: #D5CEA3;
+    --quarta-cor: #E5E5CB;
+    --quinta-cor: #C060A1;
+}
+
+body {
+    background-color: var(--primeira-cor);
+    color: var(--quarta-cor);
+}
+
+
+ul {
+    list-style: none;
+}
+
+h1,
+h2,
+h3,
+.price {
+    font-family: 'Roboto', sans-serif;
+    color: var(--quarta-cor);
+}
+
+/*Header*/
+.cor-principal {
+    color: var(--quarta-cor);
+}
+
+header h1{
+       margin-bottom: 6px;
+}
+
+header {
+padding: 32px 0;
+text-align: center;
+}
+
+header,
+section {
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+header h1 span {
+    color: var(--quinta-cor);
+}
+
+/*section*/
+/* espaço entre uma section e outra*/
+section {
+    margin-bottom: 24px; 
+}
+
+section h2 {
+    background-color: var(--segunda-cor);
+    padding: 8px 16px;
+    text-align: center;
+    margin-bottom: 22px;
+    font-size: 20px;
+}
+
+.cabecario {
+    color: var(--quarta-cor);
+}
+
+ul li {
+    margin-bottom: 20px;
+    display: flex;
+}
+
+li .details {
+    max-width: 240px;
+}
+
+.detais h3 {
+    margin-bottom: 9px;
+    font-size: 17px;
+}
+
+.details p {
+    color: rgba(236, 231, 231, 0.9);
+    font-size: 15px;
+    line-height: 16px;
+}
+
+#link {
+    color: var(--quarta-cor);
+}
+
+#perfil {
+    color: var(--quarta-cor);
+}
+
+/* mudar a cor do link quando passa o cursor do mouse*/
+#link:hover {
+    color: var(--quinta-cor);
+}
+
+#perfil:hover {
+    color: var(--quinta-cor);
+}
+
+.destaque {
+      color: var(--quinta-cor);
+}
